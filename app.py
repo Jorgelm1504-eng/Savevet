@@ -15,7 +15,7 @@ st.markdown("---")  # cria uma linha horizontal em toda a largura da coluna
 consumo_total = st.number_input("Digite o consumo total em kWh:", min_value=0, step=1)
 consumo_outra = st.number_input("Digite o consumo do Banho&Tosa em kWh:", min_value=0, step=1)
 valor_total = st.number_input("Digite o valor total da conta de luz em R$:", min_value=0.0, step=0.01)
-st.markdown("<h2 style='color: gray; margin-top:0;font-size:15px;font-style: italic;text-align: right;'>by Metric - IA e Automações </h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='color: gray; margin-top:0;font-size:15px;font-style: italic;text-align: right;'>by Metrics - IA e Automações </h2>", unsafe_allow_html=True)
 
 # Botão para calcular
 if st.button("Calcular"):
